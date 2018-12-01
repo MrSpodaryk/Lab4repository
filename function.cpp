@@ -1,47 +1,47 @@
 #include <iostream>
 #include "Header.h"
 
-double ak_tovar::get_sale()
+double aktsiinyi_tovar::get_sale()
 {
     return sale;
 }
 
-string ak_tovar::get_name()
+string aktsiinyi_tovar::get_name()
 {
     return name;
 }
 
-double ak_tovar::get_first_prise()
+double aktsiinyi_tovar::get_first_prise()
 {
     return first_prise;
 }
 
-double ak_tovar::get_sale_prise()
+double aktsiinyi_tovar::get_prise_with_sale()
 {
-    return sale_prise;
+    return prise_with_sale;
 }
 
-int ak_tovar::get_year()
+int aktsiinyi_tovar::get_year()
 {
     return year;
 }
 
-int ak_tovar::get_code()
+int aktsiinyi_tovar::get_code()
 {
     return code;
 }
 
-int ak_tovar::get_nomber()
+int aktsiinyi_tovar::get_nomber()
 {
     return nomber;
 }
 
-string ak_tovar::get_brand()
+string aktsiinyi_tovar::get_brand()
 {
     return brand;
 }
 
-ak_tovar::ak_tovar()
+aktsiinyi_tovar::aktsiinyi_tovar()
 : sale(30),
 name("Banan"),
 first_prise(1000),
@@ -53,6 +53,6 @@ code(22017)
 {
 }
 
-ak_tovar::~ak_tovar()
+aktsiinyi_tovar::~aktsiinyi_tovar()
 {
 }
